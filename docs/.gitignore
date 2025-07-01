@@ -1,0 +1,14 @@
+# Sphinx build outputs
+_build/
+.doctrees/
+
+# Sphinx cache
+.buildinfo
+
+# Auto-generated files
+*.pyc
+__pycache__/
+
+# OS specific files
+.DS_Store
+Thumbs.db 

@@ -1,0 +1,37 @@
+# Core automation libraries
+pyautogui>=0.9.54
+selenium>=4.15.0
+pygetwindow>=0.0.9
+keyboard>=0.13.5
+mouse>=0.7.1
+
+# System interaction
+psutil>=5.9.0
+watchdog>=3.0.0
+
+# Data processing (using compatible versions)
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Web and API - UPDATED FOR SECURITY
+requests>=2.32.2
+beautifulsoup4>=4.12.0
+urllib3>=2.2.2
+
+# Email automation (using built-in smtplib)
+# smtplib2==0.2.1  # Removed - conflicts with built-in smtplib
+
+# Configuration and logging
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+loguru>=0.7.0
+
+# Image processing for UI automation - UPDATED FOR SECURITY
+pillow>=10.3.0
+opencv-python>=4.8.0
+
+# Windows-specific
+pywin32>=306; sys_platform=="win32"
+
+# Type hints
+typing-extensions>=4.8.0 

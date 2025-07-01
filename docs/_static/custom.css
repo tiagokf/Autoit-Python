@@ -1,0 +1,138 @@
+/* Custom CSS for Autoit-Python Documentation */
+
+/* Melhorar aparência dos code blocks */
+.highlight {
+    border-radius: 6px;
+    border: 1px solid #e1e4e8;
+}
+
+/* Estilo para badges */
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.badge-info {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+/* Melhorar tabelas */
+table.docutils {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+table.docutils th,
+table.docutils td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table.docutils th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Estilo para notas e avisos */
+.admonition {
+    border-radius: 6px;
+    border-left: 4px solid #007bff;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.admonition.tip {
+    border-left-color: #28a745;
+    background-color: #f8fff9;
+}
+
+.admonition.warning {
+    border-left-color: #ffc107;
+    background-color: #fffdf0;
+}
+
+.admonition.note {
+    border-left-color: #17a2b8;
+    background-color: #f0f9ff;
+}
+
+/* Melhorar navegação */
+.wy-nav-content {
+    max-width: 1200px;
+}
+
+/* Estilo para emojis em títulos */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+}
+
+/* Melhorar aparência dos links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Estilo para código inline */
+code {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 3px;
+    padding: 2px 4px;
+    font-size: 87.5%;
+}
+
+/* Melhorar listas */
+ul, ol {
+    margin: 1rem 0;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+/* Estilo para seções de API */
+.py.class, .py.function, .py.method {
+    border-left: 3px solid #007bff;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+/* Responsividade para mobile */
+@media (max-width: 768px) {
+    .wy-nav-content {
+        padding: 1rem;
+    }
+    
+    table.docutils {
+        font-size: 0.9rem;
+    }
+    
+    .highlight {
+        font-size: 0.8rem;
+    }
+} 

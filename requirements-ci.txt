@@ -1,0 +1,25 @@
+# Minimal requirements for CI/CD testing
+# Core automation libraries (essential for testing)
+pyautogui>=0.9.54
+selenium>=4.15.0
+pygetwindow>=0.0.9
+
+# System interaction (required for tests)
+psutil>=5.9.0
+
+# Web and API - SECURITY UPDATES
+requests>=2.32.2
+urllib3>=2.2.2
+
+# Configuration and logging
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+
+# Image processing - SECURITY UPDATES
+pillow>=10.3.0
+
+# Windows-specific (conditional)
+pywin32>=306; sys_platform=="win32"
+
+# Type hints
+typing-extensions>=4.8.0 
